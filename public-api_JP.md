@@ -4,9 +4,9 @@
 <!-- DON'T EDIT THIS SECTION, INSTEAD RE-RUN doctoc TO UPDATE -->
 **Table of Contents**  *generated with [DocToc](https://github.com/thlorenz/doctoc)*
 
-- [Public API一覧 (2021-10-05)](#public-api%E4%B8%80%E8%A6%A7-2021-10-05)
-  - [API 概要](#api-%E6%A6%82%E8%A6%81)
-  - [エンドポイント一覧](#%E3%82%A8%E3%83%B3%E3%83%89%E3%83%9D%E3%82%A4%E3%83%B3%E3%83%88%E4%B8%80%E8%A6%A7)
+- [Public API一覧 (2021-10-05)](#public-api一覧-2021-10-05)
+  - [API 概要](#api-概要)
+  - [エンドポイント一覧](#エンドポイント一覧)
     - [Ticker](#ticker)
     - [Tickers](#tickers)
     - [TickersJPY](#tickersjpy)
@@ -143,7 +143,7 @@ GET /tickers_jpy
 
 Name | Type | Description
 ------------ | ------------ | ------------
-pair | string | 通貨ペア(JPYペアのみ): `btc_jpy`, `xrp_jpy`, `ltc_jpy`, `eth_jpy`, `mona_jpy`, `bcc_jpy`, `xlm_jpy`, `qtum_jpy`, `bat_jpy`, `omg_jpy`, `xym_jpy`, `xym_btc`
+pair | string | 通貨ペア(JPYペアのみ): `btc_jpy`, `xrp_jpy`, `ltc_jpy`, `eth_jpy`, `mona_jpy`, `bcc_jpy`, `xlm_jpy`, `qtum_jpy`, `bat_jpy`, `omg_jpy`, `xym_jpy`
 sell | string | 現在の売り注文の最安値
 buy | string | 現在の買い注文の最高値
 high | string | 過去24時間の最高値取引価格
